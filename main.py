@@ -10,8 +10,8 @@ driver = webdriver.Chrome()
 driver.get('https://accounts.spotify.com/tr/login?continue=https%3A%2F%2Fopen.spotify.com%2Fuser%2F31bv4hwlp3xnaumn5laycpkglioy')
 
 # Oturum açma bilgileri
-email = "herkesitakipediyorum@ettim.com"
-password = "ygzefeunl84"    
+email = "gmail"
+password = "password"    
 
 # Fill in the email field
 email_field = driver.find_element(By.XPATH,'//*[@id="login-username"]')
